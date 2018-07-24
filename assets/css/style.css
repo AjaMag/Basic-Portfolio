@@ -1,0 +1,53 @@
+body {background-color: #ffff;
+}    
+
+grid-container { background-color: #ffff;
+    display: grid;
+}
+
+.grid-item { padding: 20px;
+}
+
+h1 {background-color: blanchedalmond;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkmagenta; 
+    font-size: 30px;
+}  
+
+.contact { background-color:#ffff;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    padding: 8px;
+    margin: 5px;
+    color: teal;
+    font-size: 20px;
+}
+
+.name { background-color: #ffff; 
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-size: 45px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    color: teal;
+}
+
+p { background-color: mintcream; 
+    grid-column-start: 2;
+    grid-column-end: 5;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 7px;
+    margin: 10px;
+    color: rgb(153, 11, 172);
+}
+
+img {background-color:#ffff; 
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 20px;
+    margin: 10px;
+}
