@@ -63,12 +63,15 @@ ul { margin: 50px;
     line-height: 25px
 }
 
+.li { padding: 16px;
+}
 .footer {
     margin: auto auto 0 auto;
-    background-color: lightgrey;
+    background-color: darkgrey;
     position: fixed;
     bottom: 0;
     padding: 2px;
     width: 100%;
     text-align: center;
+    color:white;
 }
