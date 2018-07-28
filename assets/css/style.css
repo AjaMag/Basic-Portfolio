@@ -1,0 +1,77 @@
+.site { font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}    
+
+nav { height: 60px;
+justify-content: space-between;
+background-color:lightgray;
+display: flex;
+margin-top: 25px;
+margin-bottom: 75px;
+}
+
+.navMenu { display: flex;
+width: 300px;
+align-items: center;
+}
+
+.navMenu div a { padding-left: 8px;
+padding-right: 8px;
+}
+
+.site-content { display: flex;
+padding-top: 20px;
+padding-left: 30px;
+padding-right: 200px;
+color: grey;
+flex: 1;
+}
+
+.header { font-size: 18px;
+display: flex;
+flex-direction: column;
+margin: 18px;
+color: grey;
+}
+
+.write {font-size: 15px;
+    display: flex;
+    margin: 50px;
+    line-height: 25px
+}
+
+img {display: flex;
+}
+
+a {
+    color: orangered;
+}
+a:hover {
+    color: blue;
+}
+
+.myName { padding-left: 8px;
+    display: flex;
+    color: orangered;
+    font-size: 20px;
+}
+
+ul { margin: 50px;
+    line-height: 25px
+}
+
+.li { padding: 16px;
+}
+.footer {
+    margin: auto auto 0 auto;
+    background-color: darkgrey;
+    position: fixed;
+    bottom: 0;
+    padding: 2px;
+    width: 100%;
+    text-align: center;
+    color:white;
+}
